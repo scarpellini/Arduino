@@ -85,7 +85,7 @@ void LED::blink(int times) {
   }
   
   // blink led
-  for (int i = 0; i <= times; i++) {
+  for (int i = 0; i < times; i++) {
     if (getState()) {
      // on; turn off
      turnOFF();
@@ -104,7 +104,7 @@ void LED::fadeBlink(int times) {
   }
   
   // blink led
-  for (int i = 0; i <= times; i++) {
+  for (int i = 0; i < times; i++) {
     if (getState()) {
      // on; turn off
      fadeOut();

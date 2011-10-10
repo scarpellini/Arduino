@@ -9,7 +9,7 @@ Eduardo S. Scarpellini, <scarpellini@gmail.com>
 #define LED_H
 
 #define DEFAULT_LED_PIN 13
-#define LED_FADE_STEP 10
+#define LED_FADE_STEP 7.5
 #define LED_FADE_DELAY 10
 #define DEFAULT_LED_BLINK 5
 #define DEFAULT_LED_BLINK_DELAY 50
